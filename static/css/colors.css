@@ -1,0 +1,96 @@
+.dark-gry {
+    background: rgba(30, 30, 30, 1)
+}
+
+.light-gry {
+    background: rgba(221, 221, 221, .8)
+}
+
+.black {
+    background: rgba(13, 18, 27, 0.9)
+}
+
+.purple {
+    background: rgba(135, 61, 255, 1)
+}
+
+.white {
+    background: rgba(255, 255, 255, 1)
+}
+
+.panels {
+    background: linear-gradient(rgba(50, 49, 49, 0.8), rgba(38, 37, 37, 0.5));
+    box-shadow: -5px -5px 8px rgba(25, 25, 25, 1),
+        5px 5px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    overflow: hidden;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+.panels-dvd {
+    background: #FFFFFF;
+    box-shadow: -5px -5px 8px rgba(25, 25, 25, 1),
+        5px 5px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    overflow: hidden;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+.panels-info {
+    background: linear-gradient(rgb(255, 255, 255, .8), rgba(252, 252, 252, 0.5));
+    box-shadow: -5px -5px 8px rgb(221, 221, 221, .8),
+        5px 5px 8px rgba(124, 124, 125, 0.2);
+    border-radius: 15px;
+    overflow: hidden;
+    height: 80px;
+    margin: 1%;
+}
+.panels-nav {
+    background: linear-gradient(rgb(255, 255, 255, .8), rgba(252, 252, 252, 0.5));
+    box-shadow: -5px -5px 8px rgb(221, 221, 221, .8),
+        5px 5px 8px rgba(124, 124, 125, 0.2);
+    border-radius: 15px;
+    overflow: hidden;
+    height: 50px;
+    margin: 1%;
+}
+
+.panels-well-list {
+    background: linear-gradient(rgb(255, 255, 255, .8), rgba(252, 252, 252, 0.5));
+    box-shadow: -5px -5px 8px rgb(221, 221, 221, .8),
+        5px 5px 8px rgba(124, 124, 125, 0.2);
+    border-radius: 15px;
+    overflow: hidden;
+    height: calc(100vh - 100px);
+}
+
+.panels-planvactual {
+    background: linear-gradient(rgb(255, 255, 255, .8), rgba(252, 252, 252, 0.5));
+    box-shadow: -5px -5px 8px rgb(221, 221, 221, .8),
+        5px 5px 8px rgba(124, 124, 125, 0.2);
+    border-radius: 15px;
+    overflow: hidden;
+    height: calc(100vh - 200px);
+
+}
+.panels-planvactual-filter {
+    background: linear-gradient(rgb(255, 255, 255, .8), rgba(252, 252, 252, 0.5));
+    box-shadow: -5px -5px 8px rgb(221, 221, 221, .8),
+        5px 5px 8px rgba(124, 124, 125, 0.2);
+    border-radius: 15px;
+    overflow: hidden;
+    height: calc(100vh - 631px);
+
+}
+
+.center {
+    margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  display: block;
+  }

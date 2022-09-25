@@ -1,0 +1,14 @@
+.rig-background{
+    background-image: url(/static/images/rig2.png);
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    display: block;
+    opacity: 0.2;
+  }
+
+  .areas-of-ops{
+    height: calc(100vh - 320px);
+    width: calc(100vw - 130px);
+    border-radius: 20px;
+  }

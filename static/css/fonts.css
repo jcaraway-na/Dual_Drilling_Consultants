@@ -1,0 +1,27 @@
+.small-font{
+    font-size: 10px;
+}
+
+.medium-font{
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    display: block;
+    color:#D24B27;
+}
+
+.large-font{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    color: white;
+}
+
+.large-large-font{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    color: white;
+}
