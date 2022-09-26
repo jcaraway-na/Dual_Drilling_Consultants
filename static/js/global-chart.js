@@ -66,6 +66,6 @@ async function makePlotlySurvey(data){
     Plotly.newPlot('planvactual', trace, layout, config);
 }
 
-svys = getSurveys();
+svys = await getSurveys();
 console.log(svys);
 await makePlotlySurvey(svys);
