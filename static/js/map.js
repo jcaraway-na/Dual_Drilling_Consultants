@@ -22,10 +22,10 @@ var myMap = L.map("map", {
     accessToken: "pk.eyJ1IjoiY2FyYXdheWptIiwiYSI6ImNsN2d1dmZjcTA4YmMzcHA4enVxbGtrODgifQ._IVUqHpEGZIQuoDLQEzohg"
   }).addTo(myMap);
 
-  for(var i = 0; i < wells.length;i++){
-    marker = L.marker([31.671093, -104.094146], {
+  for(var i in wells){
+    marker = L.marker([wells[i].lat, wells[i].long], {
         draggable: true,
-        title: "My First Marker"
+        title: wells[i].wellname
       }).addTo(myMap);
   }
 

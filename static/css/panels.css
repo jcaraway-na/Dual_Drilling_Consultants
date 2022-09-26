@@ -4,7 +4,8 @@
     background-size: cover;
     background-position: center;
     display: block;
-    opacity: 0.2;
+    opacity: 0.5;
+    height: 350px;
   }
 
   .areas-of-ops{
