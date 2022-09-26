@@ -1,5 +1,5 @@
 .rig-background{
-    background-image: url(/static/images/rig2.png);
+    background-image: url(static/images/rig2.png);
     overflow: hidden;
     background-size: cover;
     background-position: center;
