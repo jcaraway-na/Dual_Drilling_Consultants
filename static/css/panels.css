@@ -1,5 +1,5 @@
 .rig-background{
-    background-image: url(https://github.com/jcaraway-na/Dual_Drilling_Consultants/blob/main/static/images/rig2.png);
+    background: url(/static/images/rig.png);
     overflow: hidden;
     background-size: cover;
     background-position: center;
